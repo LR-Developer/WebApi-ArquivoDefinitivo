@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ArquivoDefinitivo.Domain.DTO
 {
-    public class AlunoDto
+    public class ConsultarAlunoDto
     {
         #region Propriedades
 
