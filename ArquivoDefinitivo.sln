@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Domain", "01 Domain", "{1A9FDBAA-F76E-443A-AF9B-E800A3120BD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Infrastructure", "02 Infrastructure", "{6C6FCB27-60A0-47A6-A6B9-A3ECBA7FD50E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Services", "03 Services", "{27210908-5386-4AD6-9700-941524398C0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 IoC", "04 IoC", "{059204CF-4747-4C79-B83D-49E83FA52E1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 WebApi", "05 WebApi", "{86DA9ED4-0AF2-4B0D-8114-873D61643F1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArquivoDefinitivo.Domain", "ArquivoDefinitivo.Domain\ArquivoDefinitivo.Domain.csproj", "{14DD1E34-D196-41E4-9A4A-053647078C4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArquivoDefinitivo.Infrastructure.Data", "ArquivoDefinitivo.Infrastructure.Data\ArquivoDefinitivo.Infrastructure.Data.csproj", "{FF4C9CFE-8E20-47CA-9EA5-9F268B6161B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArquivoDefinitivo.Infrastructure.Service", "ArquivoDefinitivo.Infrastructure.Service\ArquivoDefinitivo.Infrastructure.Service.csproj", "{AC27EF17-66E5-4DB7-AFBB-EB7A18968965}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArquivoDefinitivo.AppService", "ArquivoDefinitivo.AppService\ArquivoDefinitivo.AppService.csproj", "{5417ECA7-04D3-41F9-A6C2-1A7A8850E839}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArquivoDefinitivo.AppService.Tests", "ArquivoDefinitivo.AppService.Tests\ArquivoDefinitivo.AppService.Tests.csproj", "{821027B9-F854-403A-A8CF-2AF9B25454F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArquivoDefinitivo.Startup", "ArquivoDefinitivo.Startup\ArquivoDefinitivo.Startup.csproj", "{A75000CF-70DA-4EEC-A06D-084ED6F45D28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArquivoDefinitivo.Api", "ArquivoDefinitivo.Api\ArquivoDefinitivo.Api.csproj", "{F35E7C64-1A9F-41B4-A47D-4FED2BD58D9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 Library", "00 Library", "{9CFBC21E-64BA-4EA2-B401-D4B806AA2A69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArquivoDefinitivo.Common.Domain", "ArquivoDefinitivo.Common.Domain\ArquivoDefinitivo.Common.Domain.csproj", "{5F868F4D-6E53-4099-939A-02E55577BF5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14DD1E34-D196-41E4-9A4A-053647078C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14DD1E34-D196-41E4-9A4A-053647078C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14DD1E34-D196-41E4-9A4A-053647078C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14DD1E34-D196-41E4-9A4A-053647078C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF4C9CFE-8E20-47CA-9EA5-9F268B6161B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF4C9CFE-8E20-47CA-9EA5-9F268B6161B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF4C9CFE-8E20-47CA-9EA5-9F268B6161B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF4C9CFE-8E20-47CA-9EA5-9F268B6161B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC27EF17-66E5-4DB7-AFBB-EB7A18968965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC27EF17-66E5-4DB7-AFBB-EB7A18968965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC27EF17-66E5-4DB7-AFBB-EB7A18968965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC27EF17-66E5-4DB7-AFBB-EB7A18968965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5417ECA7-04D3-41F9-A6C2-1A7A8850E839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5417ECA7-04D3-41F9-A6C2-1A7A8850E839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5417ECA7-04D3-41F9-A6C2-1A7A8850E839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5417ECA7-04D3-41F9-A6C2-1A7A8850E839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821027B9-F854-403A-A8CF-2AF9B25454F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821027B9-F854-403A-A8CF-2AF9B25454F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821027B9-F854-403A-A8CF-2AF9B25454F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821027B9-F854-403A-A8CF-2AF9B25454F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A75000CF-70DA-4EEC-A06D-084ED6F45D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A75000CF-70DA-4EEC-A06D-084ED6F45D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A75000CF-70DA-4EEC-A06D-084ED6F45D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A75000CF-70DA-4EEC-A06D-084ED6F45D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F35E7C64-1A9F-41B4-A47D-4FED2BD58D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F35E7C64-1A9F-41B4-A47D-4FED2BD58D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F35E7C64-1A9F-41B4-A47D-4FED2BD58D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F35E7C64-1A9F-41B4-A47D-4FED2BD58D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F868F4D-6E53-4099-939A-02E55577BF5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F868F4D-6E53-4099-939A-02E55577BF5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F868F4D-6E53-4099-939A-02E55577BF5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F868F4D-6E53-4099-939A-02E55577BF5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{14DD1E34-D196-41E4-9A4A-053647078C4A} = {1A9FDBAA-F76E-443A-AF9B-E800A3120BD7}
+		{FF4C9CFE-8E20-47CA-9EA5-9F268B6161B5} = {6C6FCB27-60A0-47A6-A6B9-A3ECBA7FD50E}
+		{AC27EF17-66E5-4DB7-AFBB-EB7A18968965} = {6C6FCB27-60A0-47A6-A6B9-A3ECBA7FD50E}
+		{5417ECA7-04D3-41F9-A6C2-1A7A8850E839} = {27210908-5386-4AD6-9700-941524398C0F}
+		{821027B9-F854-403A-A8CF-2AF9B25454F6} = {27210908-5386-4AD6-9700-941524398C0F}
+		{A75000CF-70DA-4EEC-A06D-084ED6F45D28} = {059204CF-4747-4C79-B83D-49E83FA52E1B}
+		{F35E7C64-1A9F-41B4-A47D-4FED2BD58D9F} = {86DA9ED4-0AF2-4B0D-8114-873D61643F1B}
+		{5F868F4D-6E53-4099-939A-02E55577BF5D} = {9CFBC21E-64BA-4EA2-B401-D4B806AA2A69}
+	EndGlobalSection
+EndGlobal
