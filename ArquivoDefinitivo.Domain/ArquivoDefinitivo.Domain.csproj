@@ -30,6 +30,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FluentValidation, Version=6.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentValidation.6.2.1.0\lib\Net45\FluentValidation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,18 +45,40 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Aluno.cs" />
-    <Compile Include="Contracts\IAlunoRepository.cs" />
+    <Compile Include="Contracts\Repositories\IAlunoRepository.cs" />
     <Compile Include="DTO\AlunoDto.cs" />
     <Compile Include="Filters\ConsultarAlunoFilter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\ConsultarAlunoResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConsultarAlunoResources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Specs\AlunoPorNomeSpec.cs" />
     <Compile Include="Specs\AlunoPorRgSpec.cs" />
+    <Compile Include="Validators\ConsultarAlunoValidator.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ArquivoDefinitivo.Common.Domain\ArquivoDefinitivo.Common.Domain.csproj">
       <Project>{5f868f4d-6e53-4099-939a-02e55577bf5d}</Project>
       <Name>ArquivoDefinitivo.Common.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ArquivoDefinitivo.Common.Framework\ArquivoDefinitivo.Common.Framework.csproj">
+      <Project>{f44583e6-9c61-4e10-bbb1-1dcf2005debe}</Project>
+      <Name>ArquivoDefinitivo.Common.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Commands\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ConsultarAlunoResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ConsultarAlunoResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
