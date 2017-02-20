@@ -69,6 +69,10 @@
       <Project>{f44583e6-9c61-4e10-bbb1-1dcf2005debe}</Project>
       <Name>ArquivoDefinitivo.Common.Framework</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ArquivoDefinitivo.Common.Infrastructure.Data\ArquivoDefinitivo.Common.Infrastructure.Data.csproj">
+      <Project>{7ba40e84-2204-4ffa-8bbb-413cd5fa5af7}</Project>
+      <Name>ArquivoDefinitivo.Common.Infrastructure.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
